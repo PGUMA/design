@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue;
+}
+
+.item {
+  height: 50%;
+  width: 50%;
+  background-color: aquamarine;
+}
+
+.center-arrange-1 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.center-arrange-2 {
+  position: fixed;
+  inset:0;
+  margin: auto;
+}
+
+</style>
+<body>
+  <div class="container">
+    <div class="item center-arrange-2">コンテンツ</div>
+  </div>
+</body>
+</html>
